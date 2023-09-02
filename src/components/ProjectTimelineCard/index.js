@@ -2,14 +2,14 @@
 import {AiFillCalendar} from 'react-icons/ai'
 
 const ProjectTimeLineCard = props => {
-  const {timelineItemsList} = props
+  const {projectsDetails} = props
   const {
     projectTitle,
     description,
     duration,
     projectUrl,
     imageUrl,
-  } = timelineItemsList
+  } = projectsDetails
 
   return (
     <div>

@@ -5,8 +5,8 @@ import {AiFillClockCircle} from 'react-icons/ai'
 import {CourseTagItem, CourseItem} from './styledComponents'
 
 const CourseTimelineCard = props => {
-  const {timelineItemsList} = props
-  const {courseTitle, description, duration, tagsList} = timelineItemsList
+  const {courseDetails} = props
+  const {courseTitle, description, duration, tagsList} = courseDetails
   return (
     <div>
       <div>
